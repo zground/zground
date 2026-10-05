@@ -1,42 +1,51 @@
-```typescript
-//  ____  _____ _______        _______ ____
-// |  _ \|_ _|__  /\ \      / / ____| __ )
-// | | | || |  / /  \ \ /\ / /|  _| |  _ \      Creative Solutions
-// | |_| || | / /_   \ V  V / | |___| |_) |     Web · Apps · Hosting · Automation
-// |____/|___/____|   \_/\_/  |_____|____/      @zground
+<p align="center">
+  <a href="https://www.dizweb.solutions">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dizweb-logo-on-dark.png" />
+      <img alt="Dizweb Creative Solutions" width="460" src="./assets/dizweb-logo-on-light.png" />
+    </picture>
+  </a>
+</p>
 
-class Engineer {
-  name       = "Rean Dizon";
-  role       = "AEM Certified Senior Front-End Engineer / Tech Lead";
-  experience = "10+ years";
-  location   = "Marikina City, PH 🇵🇭";
-  focus      = ["Modular architecture", "Enterprise scalability", "Core Web Vitals (LCP · INP · CLS)"];
-}
-
-class Founder extends Engineer {
-  company  = "Dizweb Creative Solutions";
-  website  = "https://www.dizweb.solutions";
-  stack    = {
-    enterprise: ["Adobe Experience Manager", "Angular", "TypeScript", "Java Spring Boot"],
-    web:        ["PHP", "Laravel", "WordPress", "HTML / CSS / JS"],
-    infra:      ["Docker", "Cloudflare", "cPanel", "XAMPP"],
-    localAI:    ["Ollama", "Qwen2.5-Coder", "Gemma", "Roo Code"],
-  };
-  offTheClock = ["Ableton & Reaper", "Metalcore on a PRS SE Custom 24", "Diztoy Collections", "Sunday Ballerz Club 🏀"];
-
-  greet() {
-    return `Hi! I'm ${this.name}. I build fast, scalable web platforms that move business numbers.`;
-  }
-}
-
-console.log(new Founder().greet());
-```
+<h3 align="center">Web Development · Web Applications · Hosting · Digital Strategy · Automation</h3>
 
 <p align="center">
-  <a href="https://www.dizweb.solutions"><img src="https://img.shields.io/badge/Dizweb-Creative%20Solutions-F26522?style=for-the-badge&labelColor=0F172A" /></a>
-  <img src="https://img.shields.io/badge/AEM-Certified-F26522?style=for-the-badge&logo=adobe&logoColor=white&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/Core%20Web%20Vitals-Obsessed-F26522?style=for-the-badge&logo=lighthouse&logoColor=white&labelColor=0F172A" />
+  <a href="https://www.dizweb.solutions"><img src="https://img.shields.io/badge/dizweb.solutions-Visit%20Website-F26522?style=for-the-badge&labelColor=0F172A" /></a>
+  <img src="https://img.shields.io/badge/AEM-Certified-F26522?style=for-the-badge&labelColor=0F172A" />
+  <img src="https://img.shields.io/badge/10%2B%20Years-Enterprise%20Front--End-F26522?style=for-the-badge&labelColor=0F172A" />
 </p>
+
+---
+
+```typescript
+const profile = {
+  name:       "Rean Dizon",
+  title:      "Founder & Creative Director, Dizweb Creative Solutions",
+  role:       "AEM Certified Senior Front-End Engineer / Tech Lead",
+  experience: "10+ years",
+  base:       "Marikina City, Philippines",
+
+  expertise: [
+    "Enterprise front-end architecture & modular design systems",
+    "Adobe Experience Manager (AEM) implementation",
+    "Core Web Vitals performance (LCP · INP · CLS)",
+    "Scalable APIs and efficient database design",
+  ],
+
+  stack: {
+    enterprise: ["AEM", "Angular", "TypeScript", "Java Spring Boot"],
+    web:        ["PHP", "Laravel", "WordPress", "HTML / CSS / JavaScript"],
+    platform:   ["Docker", "Cloudflare", "cPanel"],
+  },
+
+  services: [
+    "Website design & development", "Web applications", "E-commerce",
+    "Web hosting & domains", "SEO & digital strategy", "Business automation",
+  ],
+
+  contact: "https://www.dizweb.solutions",
+} as const;
+```
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=angular,ts,js,html,css,java,spring,php,laravel,wordpress,mysql,docker,cloudflare,git&theme=dark&perline=14" />
